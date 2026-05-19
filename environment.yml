@@ -1,0 +1,14 @@
+name: faceswap
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - onnxruntime-gpu==1.17.1
+      - insightface==0.7.3
+      - opencv-python
+      - pillow
+      - basicsr
+      - facexlib
+      - realesrgan
+      - gradio
