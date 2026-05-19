@@ -51,6 +51,8 @@ InsightFace 모델을 기반으로 한 고성능 이미지 및 비디오/GIF 페
 5. **의존성 경량화 (Dependency Refactoring)**
    * 초기 가상환경 세팅(`environment.yml`)에 포함되어 있던 무겁고 불안정한 외부 AI 업스케일러 패키지(`basicsr`, `facexlib`)를 걷어내고, OpenCV 큐빅 보간법(`INTER_CUBIC`) 기반의 최적화 파이프라인으로 내부 로직을 커스텀 빌드하여 런타임 안정성을 확보하고 불필요한 의존성을 제거했습니다.
 
+<img width="703" height="293" alt="image" src="https://github.com/user-attachments/assets/ad546755-3591-48d0-9257-be5500527ac2" />
+
 
 ---
 
